@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7fafc">
+  <title>Stratégie professionnelle et IA</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead"><span class="mark" aria-hidden="true">✳</span><span class="brand-title">Stratégie professionnelle et IA</span><a class="nav-link" href="./strategies.html">Découvrir les stratégies ↗</a></header>
+    <section id="intro" class="panel intro" hidden>
+      <p class="eyebrow">15 questions <span aria-hidden="true">·</span> <span id="estimated-time"></span></p>
+      <h1>Votre avenir n'a pas qu'une seule trajectoire<span class="accent">.</span></h1>
+      <p class="lead">Pour les métiers du développement, de la data et de l'ingénierie IA. Sur quoi misez-vous pour les six prochains mois&nbsp;?</p>
+      <div class="actions"><button id="start" class="primary" type="button">Je fais le point <span aria-hidden="true">↗</span></button></div>
+      <p class="intro-note">Les réponses restent sur votre appareil. Le résultat sert de point de départ à une réflexion.</p>
+    </section>
+    <section id="quiz" class="panel" hidden aria-labelledby="question-title">
+      <p id="progress-text" class="eyebrow" aria-live="polite"></p>
+      <div class="progress-track" role="progressbar" aria-label="Progression" aria-valuemin="0" aria-valuemax="15" aria-valuenow="0" id="progress-bar"><div id="progress-fill"></div></div>
+      <div id="question-content"></div>
+      <div class="actions quiz-actions"><button id="previous" class="secondary" type="button">← Précédent</button><button id="results-shortcut" class="text-button" type="button" hidden>Revoir mes résultats →</button></div>
+    </section>
+    <section id="result" class="panel" hidden aria-labelledby="result-title">
+      <h1 id="result-title" tabindex="-1">Vos orientations</h1>
+      <div id="summary" class="summary" aria-live="polite"></div>
+      <div class="visuals"><div id="radar"></div><div id="scores"></div></div>
+      <div id="share-tools" class="share-tools" hidden>
+        <div class="share-actions" role="group" aria-label="Partager ce résultat"><span class="share-label">Partager ce résultat</span><button id="share" class="text-button" type="button">Partager ↗</button><button id="download-card" class="text-button" type="button">Image ↓</button><button id="copy-card" class="text-button" type="button">Copier le texte</button></div>
+        <p id="share-status" role="status" aria-live="polite"></p>
+      </div>
+      <h2>Comprendre mes scores</h2>
+      <p class="muted">Les réponses qui ont compté ici, et un lien vers chaque stratégie complète.</p>
+      <div id="details"></div>
+      <div class="actions"><button id="edit" class="secondary" type="button">Modifier mes réponses</button><button id="reset" class="text-button" type="button">Recommencer</button></div>
+    </section>
+    <section id="failure" class="panel" hidden role="alert"><h1>Chargement impossible</h1><p>Les données du questionnaire sont indisponibles. Lancez le site avec un serveur HTTP après avoir généré le dossier <code>dist/</code>.</p></section>
+    <section class="method" id="methode">
+      <details><summary>Comment le résultat est-il calculé&nbsp;?</summary><p>Chaque stratégie reçoit un score de 0 à 100&nbsp;: 50&nbsp;% viennent de votre priorité sur une échelle de 1 à 5 (1 vaut zéro point), et 50&nbsp;% des situations dans lesquelles cette stratégie est proposée. Une réponse peut soutenir plusieurs stratégies. Le total est divisé par le nombre de situations où chacune était accessible.</p><p>Les scores ne sont ni des probabilités, ni une mesure d'employabilité. Ils ne mesurent pas non plus votre fréquence réelle d'usage de l'IA. Les réponses « Je ne sais pas » laissent les axes concernés incomplets.</p></details>
+    </section>
+  </main>
+</body>
+</html>
