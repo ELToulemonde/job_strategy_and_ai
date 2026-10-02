@@ -1,5 +1,5 @@
-titre: Stratégies face à l'IA dans les métiers du logiciel et de la donnée
-introduction: Ces six stratégies décrivent des paris possibles pour les développeurs et développeuses, data scientists, data engineers et AI engineers. Elles ne sont ni exclusives ni des prédictions. Les portraits associés illustrent différentes façons de tenir un même pari, parfois avec des motivations opposées.
+titre: Stratégies professionnelles à l'ère de l'IA dans les métiers du logiciel et de la donnée
+introduction: Ces six stratégies décrivent des orientations possibles pour les développeurs et développeuses, data scientists, data engineers et AI engineers. Elles peuvent se combiner et évoluer dans le temps. Les portraits associés illustrent différentes façons de suivre une même orientation.
 
 strategies:
   - id: maintenir_le_cap
@@ -8,24 +8,24 @@ strategies:
     actions: Poursuivre son travail et son apprentissage, en décidant explicitement quels changements du marché justifieraient une adaptation.
     conditions_reussite:
       - Les compétences et les résultats produits restent demandés dans les postes visés.
-      - La personne peut réévaluer sa position sans attendre d'y être contrainte.
+      - La personne peut réévaluer régulièrement sa position selon l'évolution de son métier.
     avantages:
-      - Préserve une pratique technique directe et évite de courir après chaque nouveauté.
+      - Préserve une pratique technique directe et permet de choisir à son rythme les outils à intégrer.
       - Laisse du temps pour observer quels usages de l'IA créent réellement de la valeur.
     limites:
       - Les attentes des employeurs peuvent évoluer avant qu'un changement de poste ne rende ce décalage visible.
-      - Augmenter son effort sans améliorer sa valeur par heure travaillée peut conduire à l'épuisement.
+      - Une hausse durable de la charge de travail peut être difficile à soutenir sans gains proportionnels.
     signaux_revision:
       - Les postes visés demandent des capacités que la pratique actuelle ne permet plus de démontrer.
       - La charge de travail augmente durablement sans amélioration correspondante des résultats ou des perspectives.
     portraits:
-      - id: autruche
-        nom: L'autruche
-        nuance: Évite de regarder les changements, parfois en pariant que la bulle IA éclatera. Le risque spécifique est de ne pas remarquer à temps que les attentes ont changé.
-      - id: bourrin
-        nom: Le bourrin
-        nuance: Compense la pression par davantage d'effort, avec ou sans IA. Ce levier peut aider ponctuellement, mais sa soutenabilité est limitée.
-    precision: Maintenir le cap peut aussi être un choix informé et révisable, sans évitement ni surtravail.
+      - id: observation
+        nom: Observation avant adoption
+        nuance: Privilégie un temps d'observation avant d'investir dans de nouveaux outils. Un examen régulier des attentes du marché permet de réévaluer ce choix.
+      - id: effort_accru
+        nom: Intensification de l'effort
+        nuance: Consacre davantage de temps à son activité actuelle, avec ou sans IA. Cette approche peut être utile ponctuellement ; son intérêt dépend aussi de la charge de travail dans la durée.
+    precision: Maintenir le cap peut aussi être un choix informé et révisable, sans augmentation du temps de travail.
 
   - id: accroitre_sa_capacite
     nom: Augmenter sa capacité de production
@@ -44,14 +44,14 @@ strategies:
       - Le volume livré augmente mais les résultats utiles ou la qualité stagnent.
       - Les attentes augmentent sans gain de rémunération, d'autonomie ou de temps.
     portraits:
-      - id: emerveille
-        nom: L'émerveillé
-        nuance: Adopte les outils avec enthousiasme. Cet enthousiasme facilite l'exploration, mais ne dit pas à lui seul qui bénéficie des gains.
+      - id: exploration_ia
+        nom: Exploration enthousiaste
+        nuance: Essaie de nouveaux outils avec enthousiasme. L'intérêt de cette approche dépend aussi de la manière dont les gains obtenus sont utilisés et partagés.
 
   - id: se_differencier_techniquement
     nom: Se différencier techniquement
     pari: Une capacité rare ou une fiabilité démontrable reste assez précieuse pour justifier qu'on me confie certains problèmes.
-    actions: Choisir des problèmes dont la résolution ou l'échec ont un coût identifiable, puis rendre visible la qualité de la contribution apportée.
+    actions: Choisir des problèmes dont la résolution a une valeur identifiable, puis rendre visible la qualité de la contribution apportée.
     conditions_reussite:
       - Il existe une demande solvable pour la compétence ou le niveau de fiabilité proposés.
       - La valeur reste démontrable même lorsque l'IA facilite une partie du travail.
@@ -101,13 +101,13 @@ strategies:
 
   - id: changer_de_marche
     nom: Changer de marché professionnel
-    pari: Un autre métier ou secteur offre un meilleur avenir compte tenu de mes contraintes, de mes compétences transférables et de mes aspirations.
+    pari: Un autre métier ou secteur pourrait mieux correspondre à ma situation, à mes compétences transférables et à mes aspirations.
     actions: Explorer des débouchés concrets, tester un nouveau travail à petite échelle et préparer le financement de la transition.
     conditions_reussite:
       - Une demande existe pour le nouveau métier aux conditions de travail et de revenu recherchées.
       - Le temps, les ressources et les compétences transférables permettent d'effectuer la transition.
     avantages:
-      - Permet de choisir sa trajectoire avant d'être contraint par une dégradation de sa situation.
+      - Permet d'explorer une nouvelle trajectoire selon ses priorités professionnelles.
       - Peut réemployer une partie des compétences acquises dans un autre contexte.
     limites:
       - Apprendre un autre métier a un coût et ne garantit pas un meilleur marché.
@@ -137,17 +137,16 @@ strategies:
       - Les revendications restent trop diffuses pour déboucher sur un accord vérifiable.
       - Les accords obtenus ne sont pas appliqués ou n'améliorent pas les conditions visées.
     portraits:
-      - id: syndicaliste
-        nom: Le syndicaliste
+      - id: mobilisation_collective
+        nom: Mobilisation collective
         nuance: Organise une réponse collective, de la négociation dans l'entreprise à l'action sectorielle ou réglementaire. Ces échelles n'ont pas les mêmes délais.
 
 logiques_transversales:
   - id: monetiser_une_fenetre
     nom: Monétiser une fenêtre d'opportunité
-    portrait_origine: mercenaire_996
     pari: Accepter temporairement une intensité plus forte pour capter une rémunération exceptionnelle ou construire une marge de manœuvre future.
     applicable_a: Peut accompagner plusieurs stratégies, notamment la production augmentée ou la différenciation technique.
     conditions_reussite:
       - Le gain financier est réel et revient à la personne qui fournit l'effort.
       - La durée, le bénéfice recherché et les critères de sortie sont définis à l'avance.
-    limite: Le « 996 » illustre le surinvestissement, pas une nécessité ni une recommandation. Son coût personnel peut dépasser les gains attendus.
+    limite: Une intensité de travail plus élevée demande de considérer sa durée et son effet sur le temps et l'énergie disponibles.

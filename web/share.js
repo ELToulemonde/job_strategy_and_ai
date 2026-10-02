@@ -13,11 +13,11 @@ export function shareText(results, names, url) {
   if (results.some((result) => result.score === null)) return null;
   const winners = leaders(results);
   const headline = winners.length === 0
-    ? "Aucune orientation ne ressort encore"
+    ? "Aucune orientation ne se détache"
     : winners.length === 1
       ? `${names[winners[0].id]} : ${winners[0].score.toFixed(1)} / 100`
       : `À égalité : ${winners.map((result) => names[result.id]).join(" · ")}`;
-  return `Mon point de départ face à l'IA : ${headline}. Un questionnaire pour réfléchir à mes stratégies, pas une prédiction. ${url}`;
+  return `Mes orientations professionnelles à l'ère de l'IA : ${headline}. Un questionnaire pour réfléchir à mes choix, pas une prédiction. ${url}`;
 }
 
 function drawPolygon(ctx, values, centerX, centerY, radius, fill, stroke) {

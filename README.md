@@ -41,7 +41,7 @@ Le radar comporte six axes, dans l'ordre défini par `questionnaire.yaml` : main
 
 Les réponses portent sur les **priorités déclarées pour les six prochains mois** et des **choix dans des situations hypothétiques**. Elles ne prouvent ni qu'une action a déjà été menée, ni qu'elle réussira. Un score élevé signifie seulement que cette orientation reçoit davantage de soutien dans les réponses de la personne à **ce questionnaire**. Ce n'est ni une probabilité, ni un pourcentage d'appartenance à une catégorie, ni une mesure d'employabilité. Le questionnaire ne mesure pas la **fréquence réelle d'usage de l'IA** : une même stratégie peut être poursuivie avec des niveaux d'adoption différents. Cette information pourrait, à l'avenir, être restituée séparément des six axes.
 
-Les portraits du fichier des stratégies ne sont **pas** des axes supplémentaires. La logique « monétiser une fenêtre d'opportunité » y est transversale ; le questionnaire ne mesure pas un score « mercenaire ».
+Les portraits du fichier des stratégies ne sont **pas** des axes supplémentaires. La logique « monétiser une fenêtre d'opportunité » peut accompagner plusieurs orientations ; elle n'a pas de score séparé.
 
 ## Format pour une interface
 
@@ -50,13 +50,13 @@ Le questionnaire contient exactement **15 questions**, pour environ **4 à 5 min
 - `q01` à `q06` sont des **affirmations**, chacune associée à un axe. La réponse est un entier de `1` (pas du tout une priorité) à `5` (priorité très forte), ou `null` pour « Je ne sais pas encore ».
 - `q07` à `q15` sont des **situations**. La réponse est **un seul identifiant d'option** (`a`, `b`, `c`, `d`), ou une valeur spéciale : `aucune` (réponse valide à zéro point) ou `incertain` (réponse manquante). Une option peut soutenir plusieurs axes, listés dans `axes`.
 
-Le front affiche les questions, les libellés et les options à partir du YAML. Les identifiants sont stables au sein de cette version (`version: 3`) : si des réponses sont enregistrées dans une autre interface, les accompagner de la version du questionnaire, car modifier une question ou son barème changerait le sens des résultats antérieurs. Les noms des axes à afficher se trouvent dans le fichier des stratégies.
+Le front affiche les questions, les libellés et les options à partir du YAML. Les identifiants sont stables au sein de cette version (`version: 4`) : si des réponses sont enregistrées dans une autre interface, les accompagner de la version du questionnaire, car modifier une question ou son barème changerait le sens des résultats antérieurs. Les noms des axes à afficher se trouvent dans le fichier des stratégies.
 
 Exemple de structure de réponses, partiel :
 
 ```json
 {
-  "version": 3,
+  "version": 4,
   "reponses": {
     "q01": 4,
     "q07": "c",

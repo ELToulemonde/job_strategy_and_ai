@@ -24,7 +24,7 @@ function strategyCard(strategy, index) {
   content.append(element("h4", "Concrètement"), element("p", strategy.actions));
   addList(content, "Ce qui doit être vrai", strategy.conditions_reussite);
   addList(content, "Ce que ça peut apporter", strategy.avantages);
-  addList(content, "Ce qui peut coincer", strategy.limites);
+  addList(content, "Points d'attention", strategy.limites);
   addList(content, "Quand réexaminer ce choix", strategy.signaux_revision);
   if (strategy.portraits?.length) {
     content.append(element("h4", "Portraits possibles"));

@@ -1,5 +1,5 @@
-version: 3
-titre: Où en sont mes stratégies professionnelles face à l'IA ?
+version: 4
+titre: Quelles sont mes orientations professionnelles à l'ère de l'IA ?
 consigne: Répondez en pensant à vos priorités pour les six prochains mois. Plusieurs stratégies peuvent compter pour vous à la fois. Il n'y a pas de bonne réponse.
 duree_estimee: 4 à 5 minutes
 strategies_source: strategies-ia-emploi-dev.yaml
@@ -164,7 +164,7 @@ questions:
     texte: Un réseau professionnel organise des échanges sur l'évolution des métiers avec l'IA. Qu'y feriez-vous en priorité ?
     options:
       - id: a
-        texte: Évaluer les risques de qualité et la fiabilité des résultats produits.
+        texte: Évaluer la qualité et la fiabilité des résultats produits.
         axes: [se_differencier_techniquement]
       - id: b
         texte: Faciliter les échanges entre les équipes métier, techniques et les personnes concernées par le changement.
@@ -195,7 +195,7 @@ questions:
 
   - id: q14
     type: situation
-    texte: Vos perspectives dans votre rôle actuel se dégradent. Quelle première piste chercheriez-vous à concrétiser ?
+    texte: Un changement dans votre activité vous amène à réexaminer vos options professionnelles. Quelle première piste exploreriez-vous ?
     options:
       - id: a
         texte: Ajuster ma pratique pour rester dans le même type de rôle.

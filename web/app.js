@@ -114,11 +114,11 @@ function renderResult() {
   summary.replaceChildren();
   const winners = leaders(results);
   if (results.some((r) => r.score === null)) {
-    summary.append(node("h2", "Certains axes sont incomplets"));
-    summary.append(node("p", "Une réponse « Je ne sais pas encore » empêche de comparer toutes les stratégies. Les axes complets restent visibles ; vous pouvez modifier vos réponses."));
+    summary.append(node("h2", "Certaines orientations restent à préciser"));
+    summary.append(node("p", "Vous avez choisi « Je ne sais pas encore » pour certaines questions. Les axes concernés restent sans score ; les autres sont visibles ci-dessous."));
   } else if (!winners.length) {
-    summary.append(node("h2", "Aucune orientation ne ressort"));
-    summary.append(node("p", "Vous n'avez donné de point à aucune de ces pistes. Ce résultat peut aussi être une base de réflexion."));
+    summary.append(node("h2", "Aucune orientation ne se détache"));
+    summary.append(node("p", "Vos réponses ne privilégient pas l'une des six stratégies proposées. Ce résultat peut aussi nourrir votre réflexion."));
   } else if (winners.length > 1) {
     summary.append(node("h2", "Plusieurs orientations ressortent à égalité"));
     summary.append(node("p", winners.map((r) => names[r.id]).join(" · ")));
