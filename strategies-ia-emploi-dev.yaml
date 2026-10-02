@@ -1,0 +1,146 @@
+titre: Stratégies face à l'IA sur l'emploi (contexte dev / AI Eng)
+introduction: Face à la progression de l'IA générative sur le métier de développeur, onze stratégies émergent. Aucune n'est "la bonne" — chacune est un pari, avec ses avantages et ses limites propres. Ce document essaie de les documenter de façon aussi complète que possible.
+strategies:
+  - id: autruche
+    nom: L'autruche
+    devise: Je ne veux pas regarder.
+    posture: éviter le sujet, ne pas s'y confronter directement.
+    relation_marche_travail: j'attends que la bulle explose.
+    avantages:
+      - Permet de garder une certaine sérénité
+      - Faible consommation de ressources (peu d'usage de compute/API)
+    inconvenients:
+      - "La personne continue d'apprendre et de produire — le vrai risque n'est pas une perte de compétence, mais une dérive des attendus du marché : ce qui est considéré comme \"normal\" évolue sans elle"
+      - Ce risque est surtout réel en cas de changement de poste, ou si l'employeur pousse activement au virage IA (ex : Clevercloud a proposé un plan de départ volontaire à ceux qui ne souhaitaient pas prendre ce tournant, autour de 2%/mois de l'effectif)
+      - Reste une posture relativement stable tant qu'on n'est pas contraint de se recomparer au marché
+
+  - id: bourrin
+    nom: Le bourrin
+    devise: Je travaille plus fort pour rester dans la course.
+    posture: de peur de ne plus être compétitif, je travaille davantage avec mes outils habituels, sans miser sur l'IA pour soutenir cette course.
+    relation_marche_travail: ma capacité à produire est ma valeur ajoutée.
+    avantages:
+      - Garde la pratique et l'apprentissage technique directs
+    inconvenients:
+      - "Pas de levier structurel : la fatigue peut s'accumuler sans gain d'efficacité proportionnel"
+      - Efficace au détriment de l'efficience
+      - Risque de fatigue, de burn-out
+      - Course difficile à tenir dans la durée si le rythme de progression de l'IA continue d'accélérer
+
+  - id: specialiste
+    nom: Le spécialiste
+    devise: Je m'enfonce dans une expertise toujours plus profonde.
+    posture: l'IA progresse régulièrement, je dois donc rester plus expert qu'elle sur mon domaine.
+    relation_marche_travail: si l'IA remplace les devs, je serai le dernier en poste.
+    avantages:
+      - Apprentissage continu, ce qui est souvent une source de satisfaction
+      - Valeur reconnue tant que la niche choisie reste pertinente
+    inconvenients:
+      - Ne pouvant pas tout savoir, on s'isole dans une niche — il faut parier sur la bonne
+      - Certaines expertises très poussées sur un périmètre étroit (ex : être LE spécialiste pointu d'un framework ou d'une configuration d'infrastructure précise dans une boîte) peuvent perdre une partie de leur valeur différentiante quand l'IA devient capable de couvrir ce même périmètre de façon suffisante
+      - Concentre le risque sur un seul pari plutôt que de le répartir
+
+  - id: manager
+    nom: Le manager
+    devise: Je me tourne vers la gestion humaine.
+    posture: l'expertise technique pure devient moins différenciante, je me repositionne sur le management d'équipe.
+    relation_marche_travail: je serai manager de salariés, puis d'agents.
+    avantages:
+      - Satisfaction relationnelle
+      - Valorisation sociale du rôle
+      - Moins d'usure liée à la technique pure
+    inconvenients:
+      - Devient problématique si l'IA progresse aussi sur cette dimension (management d'agents assisté par IA, automatisation du reporting/coordination)
+      - Suppose des compétences humaines/organisationnelles qui ne s'improvisent pas
+
+  - id: fonctionnel
+    nom: Le fonctionnel
+    devise: Je me tourne vers le métier, la créativité.
+    posture: l'expertise technique pure devient moins différenciante, je me repositionne sur le fonctionnel, le produit, la créativité — sans nécessairement passer par le management d'équipe.
+    relation_marche_travail: ma valeur se déplace du "comment coder" vers le "quoi construire et pourquoi".
+    avantages:
+      - Se rapproche des décisions à plus fort impact business
+      - Terrain où la subjectivité et le jugement humain restent structurants
+    inconvenients:
+      - Course constante à la poursuite de ce qui distingue encore l'humain de l'IA, sans garantie que ce terrain reste stable
+      - Nécessite d'acquérir une légitimité fonctionnelle/métier qui ne découle pas automatiquement de l'expertise technique passée
+
+  - id: emerveille
+    nom: L'émerveillé
+    devise: L'IA me permet de faire tellement plus de choses.
+    posture: profiter pleinement du gain de productivité apporté par l'IA, avec enthousiasme.
+    relation_marche_travail: plus productif, j'ai plus de valeur.
+    avantages:
+      - Grande satisfaction au quotidien
+      - Appropriation rapide des nouveaux outils
+    inconvenients:
+      - Néglige le fait que ce gain de productivité est accessible à tout le monde
+      - Si le gain est généralisable à l'ensemble du marché, il ne constitue pas nécessairement un avantage différentiel individuel, plutôt une nouvelle norme collective
+
+  - id: mercenaire_996
+    nom: Le mercenaire (996)
+    devise: From 9 to 9, 6 days a week.
+    posture: intensifier son effort en mobilisant l'IA à fond, pour rester compétitif ou maximiser les gains pendant que la fenêtre est ouverte. Le moteur peut être la peur de perdre sa place ou un calcul d'opportunité ; l'accélération est leur point commun.
+    relation_marche_travail: "convertir une forte capacité de production en gains financiers, par exemple chez les grands acteurs de l'IA. Le « 996 » désigne un rythme de 9 h à 21 h, six jours par semaine : une image du surinvestissement, pas une recommandation."
+    avantages:
+      - Très productif, rythme de sortie élevé
+      - Potentiellement rentable financièrement si le gain de productivité est rémunéré
+      - Peut être vu comme un investissement pour l'avenir
+    inconvenients:
+      - Sacrifice de la vie personnelle
+      - Risque de perdre du plaisir et de l'apprentissage technique direct si le rôle glisse vers la seule supervision d'agents
+      - Stratégie cohérente surtout sur un horizon court ; suppose de bien anticiper l'après
+
+  - id: passeur
+    nom: Le passeur
+    devise: J'enseigne à ceux qui n'y sont pas encore.
+    posture: se concentrer sur la transmission — former les autres à travailler avec l'IA plutôt que produire directement.
+    relation_marche_travail: je monétise la transition plutôt que la compétence technique elle-même.
+    avantages:
+      - Valorise une compétence pédagogique complémentaire
+      - Répond à un besoin fort pendant les phases de transition
+    inconvenients:
+      - "Fenêtre d'opportunité potentiellement courte : une fois la transition faite, le besoin de formation diminue"
+      - Dépend du rythme d'adoption du marché
+
+  - id: reconverti
+    nom: Le reconverti
+    devise: Je change de métier plutôt que d'attendre d'y être contraint.
+    posture: sortir volontairement du secteur en changeant de métier plutôt que d'attendre d'y être contraint.
+    relation_marche_travail: je quitte le secteur avant qu'il ne se dégrade pour moi, en réinvestissant ailleurs.
+    avantages:
+      - Accessible sans épargne préalable
+      - Sortie choisie plutôt que subie
+    inconvenients:
+      - Perte du capital de compétences accumulé dans le domaine quitté
+      - Coût et incertitude liés à l'apprentissage d'un nouveau métier
+    nuance: Avec un capital suffisant, la sortie peut aussi prendre la forme d'une rente.
+
+  - id: artisan
+    nom: L'artisan
+    devise: Je mise sur la qualité qui tient dans le temps.
+    posture: "privilégier la qualité et la fiabilité plutôt que la seule vitesse. Cela inclut le travail soigné, éventuellement « à l'ancienne », mais aussi l'audit, la sécurité et la réparation de code produit trop vite. L'IA peut être présente dans l'atelier : le pari porte sur la valeur de la fiabilité, pas sur la pureté de l'outillage."
+    relation_marche_travail: je vise les clients ou employeurs pour lesquels un logiciel fiable vaut davantage qu'un logiciel livré vite. L'augmentation du code généré peut aussi créer des besoins de fiabilisation.
+    avantages:
+      - Pari de niche assumé et cohérent, pas subi par déni
+      - Différenciation claire
+      - Contribution valorisable sur les enjeux de sécurité, d'audit et de dette technique
+    inconvenients:
+      - Marché potentiellement restreint
+      - Dépend de l'existence durable d'une clientèle disposée à payer cette différenciation
+      - L'activité de réparation dépend en partie du niveau de défauts que les outils et pratiques de production laissent passer
+      - "Risque de rationalisation a posteriori : invoquer la qualité peut parfois masquer une résistance au changement. La preuve utile est la valeur apportée à quelqu'un, pas le discours sur le travail bien fait"
+      - Se distingue de l'autruche par un choix de valeur explicite, plutôt que par le seul niveau d'adoption de l'IA
+
+  - id: syndicaliste
+    nom: Le syndicaliste
+    devise: Changer les règles du jeu plutôt que s'adapter seul.
+    posture: investir son énergie dans l'action collective — régulation, droit d'auteur, négociation collective — plutôt que dans une adaptation individuelle.
+    relation_marche_travail: agir sur les règles du marché plutôt que sur sa propre position dans le marché.
+    avantages:
+      - Seule approche qui s'attaque à la dimension structurelle du sujet plutôt qu'à ses effets individuels
+      - Bénéfices potentiellement partagés par l'ensemble de la profession
+    inconvenients:
+      - Peu répandue dans la culture du développement, plutôt individualiste
+      - Résultats lents et incertains, peu compatibles avec le besoin d'avancer "maintenant" dans une carrière individuelle
+      - "Le temps juridique/réglementaire est structurellement décorrélé du temps des innovations : par le temps qu'une régulation aboutisse, plusieurs générations technologiques se sont déjà écoulées, ce qui limite fortement l'efficacité de cette stratégie à l'échelle d'une carrière"
