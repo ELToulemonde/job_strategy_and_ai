@@ -1,6 +1,6 @@
 version: 4
-titre: Quelles sont mes orientations professionnelles à l'ère de l'IA ?
-consigne: Répondez en pensant à vos priorités pour les six prochains mois. Plusieurs stratégies peuvent compter pour vous à la fois. Il n'y a pas de bonne réponse.
+titre: Quelles orientations professionnelles dans un contexte d'IA ?
+consigne: Répondez en pensant aux six prochains mois. Plusieurs stratégies peuvent compter à la fois. Il n'y a pas de bonne réponse.
 duree_estimee: 4 à 5 minutes
 strategies_source: strategies-ia-emploi-dev.yaml
 axes:
@@ -27,7 +27,7 @@ situations:
   consigne: Choisissez la piste que vous privilégieriez. « Aucune » et « Je ne sais pas encore » sont aussi possibles.
   reponses_speciales:
     aucune:
-      libelle: Aucune de ces pistes ne me correspond
+      libelle: Aucune de ces pistes ne convient
       contribution: 0
       exclusive: true
     incertain:
@@ -47,62 +47,62 @@ questions:
   - id: q01
     type: affirmation
     axe: maintenir_le_cap
-    texte: Continuer dans mon type de rôle actuel, sans réorientation majeure, est une priorité pour moi.
+    texte: Continuer dans le type de rôle actuel, sans réorientation majeure, est une priorité.
 
   - id: q02
     type: affirmation
     axe: accroitre_sa_capacite
-    texte: Utiliser l'IA pour élargir ce que je peux réaliser professionnellement est une priorité pour moi.
+    texte: Utiliser l'IA pour élargir ce qui peut être réalisé professionnellement est une priorité.
 
   - id: q03
     type: affirmation
     axe: se_differencier_techniquement
-    texte: Construire une valeur professionnelle distinctive grâce à mes compétences techniques est une priorité pour moi.
+    texte: Se distinguer par la qualité et la fiabilité de ce qui est produit (visuels, textes, code ou données) est une priorité.
 
   - id: q04
     type: affirmation
     axe: deplacer_sa_contribution
-    texte: Faire évoluer mon rôle au-delà de la réalisation technique directe est une priorité pour moi.
+    texte: Accorder plus de place au choix des problèmes, à la coordination ou à la transmission qu'à la production directe est une priorité.
 
   - id: q05
     type: affirmation
     axe: changer_de_marche
-    texte: Préparer une activité professionnelle en dehors des métiers techniques du logiciel, de la donnée et de l'IA est une priorité pour moi.
+    texte: Préparer une transition vers un autre métier ou secteur est une priorité.
 
   - id: q06
     type: affirmation
     axe: agir_collectivement
-    texte: Agir avec d'autres personnes sur les conditions de travail liées à l'IA est une priorité pour moi.
+    texte: Agir avec d'autres personnes sur les conditions de travail liées à l'IA est une priorité.
 
   - id: q07
     type: situation
     texte: Vous pouvez réserver une demi-journée par semaine à votre avenir professionnel. À quoi la consacrez-vous ?
     options:
       - id: a
-        texte: Consolider ma pratique actuelle et regarder si elle répond toujours aux attentes du marché.
+        texte: Consolider la pratique actuelle et vérifier qu'elle répond toujours aux attentes du marché.
         axes: [maintenir_le_cap]
       - id: b
-        texte: Tester un usage de l'IA qui me permettrait de prendre en charge de nouveaux travaux.
+        texte: Tester un usage de l'IA qui permettrait de prendre en charge de nouveaux travaux.
         axes: [accroitre_sa_capacite]
       - id: c
-        texte: Approfondir un problème technique difficile, en utilisant l'IA si elle m'aide à le résoudre.
+        texte: Approfondir la résolution d'un problème difficile dans le métier actuel, avec l'IA si elle aide.
         axes: [se_differencier_techniquement, accroitre_sa_capacite]
       - id: d
-        texte: Discuter avec des utilisateurs pour mieux comprendre quels problèmes méritent d'être résolus.
+        texte: Discuter avec des utilisateurs pour comprendre quels problèmes résoudre.
         axes: [deplacer_sa_contribution]
 
   - id: q08
     type: situation
-    texte: Vous choisissez un projet personnel à mener au cours des prochains mois. Lequel privilégiez-vous ?
+    texte: Vous choisissez un projet personnel pour les prochains mois. Lequel privilégiez-vous ?
     options:
       - id: a
-        texte: Mettre à jour et approfondir une compétence technique utile à mon rôle actuel.
+        texte: Mettre à jour et approfondir un savoir-faire exigeant utile au rôle actuel.
         axes: [maintenir_le_cap, se_differencier_techniquement]
       - id: b
-        texte: Construire avec l'IA quelque chose que je ne pourrais pas réaliser seul aujourd'hui.
+        texte: Construire avec l'IA quelque chose qui ne pourrait pas être réalisé sans elle aujourd'hui.
         axes: [accroitre_sa_capacite]
       - id: c
-        texte: Tester concrètement une activité dans un autre métier.
+        texte: Tester une activité dans un autre métier.
         axes: [changer_de_marche]
       - id: d
         texte: Préparer avec des collègues des propositions sur les conditions de déploiement de l'IA.
@@ -110,16 +110,16 @@ questions:
 
   - id: q09
     type: situation
-    texte: Votre équipe envisage d'utiliser davantage l'IA dans son travail technique. Que feriez-vous en premier ?
+    texte: Votre équipe envisage d'utiliser davantage l'IA dans son travail. Que feriez-vous en premier ?
     options:
       - id: a
-        texte: Vérifier la fiabilité du travail produit avec l'IA dans mon rôle actuel.
+        texte: Vérifier la fiabilité du travail produit avec l'IA dans le rôle actuel.
         axes: [se_differencier_techniquement, maintenir_le_cap]
       - id: b
         texte: Tester les usages utiles, puis aider l'équipe à les mettre en place.
         axes: [deplacer_sa_contribution, accroitre_sa_capacite]
       - id: c
-        texte: Explorer concrètement une voie professionnelle hors des métiers techniques du logiciel et de la donnée.
+        texte: Explorer les possibilités dans un autre métier ou secteur.
         axes: [changer_de_marche]
       - id: d
         texte: Discuter avec les collègues pour négocier les règles d'usage et la charge de travail.
@@ -127,19 +127,19 @@ questions:
 
   - id: q10
     type: situation
-    texte: Une mission proche de votre activité actuelle se présente. Qu'est-ce qui vous donnerait le plus envie de la choisir ?
+    texte: Vous recevez une proposition d'emploi ou de prestation proche de votre activité actuelle. Qu'est-ce qui vous donnerait envie de l'accepter ?
     options:
       - id: a
-        texte: Elle permet de poursuivre mon travail dans un cadre que je connais bien.
+        texte: Poursuivre l'activité actuelle dans un cadre connu.
         axes: [maintenir_le_cap]
       - id: b
-        texte: Elle me permet de livrer un périmètre plus large grâce à l'IA.
+        texte: Élargir les tâches prises en charge grâce à l'IA.
         axes: [accroitre_sa_capacite]
       - id: c
-        texte: Elle comporte des problèmes techniques difficiles que je peux résoudre et vérifier.
+        texte: Résoudre des problèmes difficiles et vérifier la qualité du travail produit.
         axes: [se_differencier_techniquement]
       - id: d
-        texte: Elle me donne une responsabilité sur les besoins métier et les choix du projet.
+        texte: Définir les besoins et décider du travail à réaliser.
         axes: [deplacer_sa_contribution]
 
   - id: q11
@@ -147,10 +147,10 @@ questions:
     texte: Vous avez une journée de formation à utiliser librement. Quel apprentissage choisiriez-vous ?
     options:
       - id: a
-        texte: Approfondir un domaine technique utile à mon rôle actuel.
+        texte: Apprendre à repérer et corriger les défauts dans les réalisations du métier actuel.
         axes: [maintenir_le_cap, se_differencier_techniquement]
       - id: b
-        texte: Apprendre à utiliser l'IA pour aider mes collègues à élargir ce qu'ils peuvent réaliser.
+        texte: Apprendre à utiliser l'IA pour aider les collègues à élargir ce qu'ils peuvent réaliser.
         axes: [accroitre_sa_capacite, deplacer_sa_contribution]
       - id: c
         texte: Découvrir les compétences nécessaires pour exercer un autre métier.
@@ -161,47 +161,47 @@ questions:
 
   - id: q12
     type: situation
-    texte: Un réseau professionnel organise des échanges sur l'évolution des métiers avec l'IA. Qu'y feriez-vous en priorité ?
+    texte: Un réseau professionnel organise des échanges sur l'évolution des métiers avec l'IA. Quel sujet souhaiteriez-vous voir abordé en priorité ?
     options:
       - id: a
-        texte: Évaluer la qualité et la fiabilité des résultats produits.
+        texte: La qualité et la fiabilité du travail produit avec l'IA, et les moyens de les vérifier.
         axes: [se_differencier_techniquement]
       - id: b
-        texte: Faciliter les échanges entre les équipes métier, techniques et les personnes concernées par le changement.
+        texte: Le choix des problèmes à traiter et la coordination entre les personnes concernées.
         axes: [deplacer_sa_contribution]
       - id: c
-        texte: Profiter des échanges pour enquêter sur un métier extérieur à mon domaine technique.
+        texte: Les possibilités de transition vers un autre métier ou secteur.
         axes: [changer_de_marche]
       - id: d
-        texte: Formuler avec d'autres des demandes communes sur les conditions d'utilisation de l'IA.
+        texte: Les conditions de travail liées à l'IA et leur négociation collective.
         axes: [agir_collectivement]
 
   - id: q13
     type: situation
-    texte: Vous envisagez votre prochain poste dans votre domaine technique actuel. Quelle possibilité attire le plus votre attention ?
+    texte: Vous pouvez conserver ou faire évoluer votre rôle actuel. Quelle option privilégieriez-vous ?
     options:
       - id: a
-        texte: Un poste proche de mon métier actuel, dont je maîtrise déjà les responsabilités.
+        texte: Continuer à exercer les responsabilités déjà maîtrisées.
         axes: [maintenir_le_cap]
       - id: b
-        texte: Un poste où l'IA me permettrait de prendre en charge davantage de projets.
+        texte: Prendre en charge davantage de projets grâce à l'IA.
         axes: [accroitre_sa_capacite]
       - id: c
-        texte: Un poste où une expertise technique pointue que j'ai développée est recherchée.
+        texte: Assumer la responsabilité des travaux les plus difficiles du métier actuel.
         axes: [se_differencier_techniquement, maintenir_le_cap]
       - id: d
-        texte: Un poste davantage centré sur le métier, la coordination ou la transmission.
+        texte: Choisir les problèmes à traiter et coordonner leur résolution.
         axes: [deplacer_sa_contribution]
 
   - id: q14
     type: situation
-    texte: Un changement dans votre activité vous amène à réexaminer vos options professionnelles. Quelle première piste exploreriez-vous ?
+    texte: Les demandes pour votre travail habituel diminuent. Quelle première piste exploreriez-vous ?
     options:
       - id: a
-        texte: Ajuster ma pratique pour rester dans le même type de rôle.
+        texte: Ajuster la pratique pour rester dans le même type de rôle.
         axes: [maintenir_le_cap]
       - id: b
-        texte: Utiliser l'IA pour élargir les tâches que je peux prendre en charge et transmettre cette pratique.
+        texte: Tester avec une équipe de nouvelles tâches réalisables avec l'IA, puis lui transmettre la méthode.
         axes: [accroitre_sa_capacite, deplacer_sa_contribution]
       - id: c
         texte: Vérifier les débouchés d'un autre métier et préparer une transition.
@@ -215,13 +215,13 @@ questions:
     texte: Vous pouvez essayer une activité en parallèle de votre travail pendant un trimestre. Laquelle choisissez-vous ?
     options:
       - id: a
-        texte: Fiabiliser un livrable technique produit avec l'IA, qu'il s'agisse de code, de données ou d'un modèle.
+        texte: Fiabiliser une réalisation produite avec l'IA et montrer comment sa qualité est vérifiée.
         axes: [se_differencier_techniquement]
       - id: b
         texte: Accompagner une équipe pour mieux définir ses besoins avant de construire.
         axes: [deplacer_sa_contribution]
       - id: c
-        texte: Faire une immersion dans un métier hors de mon domaine technique.
+        texte: Faire une immersion dans un autre métier ou secteur.
         axes: [changer_de_marche]
       - id: d
         texte: Contribuer à un collectif qui négocie des conditions de travail.

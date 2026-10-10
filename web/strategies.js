@@ -19,11 +19,11 @@ function strategyCard(strategy, index) {
   article.append(element("h3", strategy.nom));
   article.append(element("p", strategy.pari, "card-pari"));
   const details = element("details", undefined, "card-details");
-  details.append(element("summary", "Explorer ce pari"));
+  details.append(element("summary", "Explorer cette stratégie"));
   const content = element("div", undefined, "card-details-body");
   content.append(element("h4", "Concrètement"), element("p", strategy.actions));
   addList(content, "Ce qui doit être vrai", strategy.conditions_reussite);
-  addList(content, "Ce que ça peut apporter", strategy.avantages);
+  addList(content, "Ce que cette stratégie apporte", strategy.avantages);
   addList(content, "Points d'attention", strategy.limites);
   addList(content, "Quand réexaminer ce choix", strategy.signaux_revision);
   if (strategy.portraits?.length) {
@@ -51,15 +51,6 @@ async function init() {
       const card = document.getElementById(id);
       card.querySelector("details").open = true;
       card.scrollIntoView();
-    }
-    const transverse = strategies.logiques_transversales?.[0];
-    if (transverse) {
-      const aside = document.getElementById("cross-cutting");
-      aside.append(element("span", "Et en parallèle…", "aside-kicker"));
-      aside.append(element("h2", transverse.nom));
-      aside.append(element("p", transverse.applicable_a));
-      aside.append(element("p", transverse.limite, "muted"));
-      aside.hidden = false;
     }
   } catch (error) {
     console.error(error);

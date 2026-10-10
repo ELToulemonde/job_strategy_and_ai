@@ -1,19 +1,19 @@
-titre: Stratégies professionnelles à l'ère de l'IA dans les métiers du logiciel et de la donnée
-introduction: Ces six stratégies décrivent des orientations possibles pour les développeurs et développeuses, data scientists, data engineers et AI engineers. Elles peuvent se combiner et évoluer dans le temps. Les portraits associés illustrent différentes façons de suivre une même orientation.
+titre: Stratégies professionnelles dans un contexte d'IA
+introduction: Ces six stratégies décrivent des orientations possibles pour toute personne qui réfléchit aux effets de l'IA sur son travail. Elles concernent notamment les travaux portant sur des visuels, des textes, du code ou des données. Elles peuvent se combiner et évoluer dans le temps. Les portraits associés illustrent différentes façons de suivre une même orientation.
 
 strategies:
   - id: maintenir_le_cap
     nom: Maintenir le cap
-    pari: Mon positionnement actuel reste suffisamment viable pour que continuer à l'exercer soit préférable à une réorientation immédiate.
-    actions: Poursuivre son travail et son apprentissage, en décidant explicitement quels changements du marché justifieraient une adaptation.
+    pari: Le positionnement actuel reste suffisamment viable pour que sa poursuite soit préférable à une réorientation immédiate.
+    actions: Poursuivre le travail et l'apprentissage, en décidant explicitement quels changements du marché justifieraient une adaptation.
     conditions_reussite:
-      - Les compétences et les résultats produits restent demandés dans les postes visés.
-      - La personne peut réévaluer régulièrement sa position selon l'évolution de son métier.
+      - Les compétences et les résultats produits restent demandés par le marché.
+      - La personne doit réévaluer régulièrement sa position selon l'évolution de son métier.
     avantages:
-      - Préserve une pratique technique directe et permet de choisir à son rythme les outils à intégrer.
+      - Préserve une pratique directe du métier. Permet de choisir les outils à intégrer à son rythme.
       - Laisse du temps pour observer quels usages de l'IA créent réellement de la valeur.
     limites:
-      - Les attentes des employeurs peuvent évoluer avant qu'un changement de poste ne rende ce décalage visible.
+      - Le décalage entre les attentes des employeurs et la pratique peut rester invisible jusqu'au prochain changement de poste.
       - Une hausse durable de la charge de travail peut être difficile à soutenir sans gains proportionnels.
     signaux_revision:
       - Les postes visés demandent des capacités que la pratique actuelle ne permet plus de démontrer.
@@ -29,8 +29,8 @@ strategies:
 
   - id: accroitre_sa_capacite
     nom: Augmenter sa capacité de production
-    pari: L'IA me permet de réaliser plus de choses ou des choses auparavant hors de portée, et je peux convertir ce gain en valeur pour moi.
-    actions: Intégrer l'IA à son travail, mesurer ce qu'elle permet réellement de livrer et négocier ou choisir l'usage du temps et de la valeur ainsi gagnés.
+    pari: L'IA permet de réaliser plus de choses, ou des choses auparavant hors de portée. Ce gain peut être converti en valeur pour la personne.
+    actions: Intégrer l'IA au travail et mesurer ce qu'elle permet réellement de livrer. Négocier ou choisir l'usage du temps et de la valeur ainsi gagnés.
     conditions_reussite:
       - Les gains restent réels après vérification, intégration et maintenance du travail produit.
       - Une partie des gains revient à la personne sous forme de revenu, d'autonomie, de temps ou d'apprentissage.
@@ -39,7 +39,7 @@ strategies:
       - Peut accroître le plaisir de créer et libérer du temps pour des tâches plus importantes.
     limites:
       - Un gain accessible à tous peut devenir une nouvelle exigence sans améliorer la position individuelle.
-      - Produire plus peut accroître la dette technique ou la charge de vérification si la qualité ne suit pas.
+      - Produire plus peut accroître les corrections ou la charge de vérification si la qualité ne suit pas.
     signaux_revision:
       - Le volume livré augmente mais les résultats utiles ou la qualité stagnent.
       - Les attentes augmentent sans gain de rémunération, d'autonomie ou de temps.
@@ -49,18 +49,18 @@ strategies:
         nuance: Essaie de nouveaux outils avec enthousiasme. L'intérêt de cette approche dépend aussi de la manière dont les gains obtenus sont utilisés et partagés.
 
   - id: se_differencier_techniquement
-    nom: Se différencier techniquement
-    pari: Une capacité rare ou une fiabilité démontrable reste assez précieuse pour justifier qu'on me confie certains problèmes.
-    actions: Choisir des problèmes dont la résolution a une valeur identifiable, puis rendre visible la qualité de la contribution apportée.
+    nom: Se différencier par ses réalisations
+    pari: La maîtrise de problèmes difficiles ou la qualité et la fiabilité vérifiables des travaux réalisés restent recherchées, même lorsque l'IA facilite une partie du travail.
+    actions: Résoudre des problèmes difficiles ou améliorer la qualité et la fiabilité des travaux réalisés. Montrer les résultats et les moyens de les vérifier.
     conditions_reussite:
-      - Il existe une demande solvable pour la compétence ou le niveau de fiabilité proposés.
-      - La valeur reste démontrable même lorsque l'IA facilite une partie du travail.
+      - Il existe une demande pour la maîtrise de ces problèmes ou pour ce niveau de qualité et de fiabilité.
+      - La différence reste vérifiable même lorsque l'IA facilite une partie du travail.
     avantages:
-      - Capitalise sur l'expérience technique et l'apprentissage continu.
-      - Peut associer outils IA, jugement technique et responsabilité sur le résultat.
+      - Capitalise sur l'expertise acquise et l'apprentissage continu.
+      - Peut associer outils IA, jugement professionnel et responsabilité sur le résultat.
     limites:
       - Une niche étroite peut perdre de sa valeur si les besoins ou les outils changent.
-      - Une exigence de qualité que personne ne peut observer ou n'est prêt à payer ne suffit pas à se différencier.
+      - Une qualité que personne ne peut vérifier ou ne rémunère pas ne suffit pas à se différencier. Un volume accru ne suffit pas non plus.
     signaux_revision:
       - Les problèmes visés deviennent faciles à résoudre et à vérifier par des alternatives moins coûteuses.
       - Les clients ou employeurs ne reconnaissent plus la différence de résultat.
@@ -70,28 +70,28 @@ strategies:
         nuance: Mise sur la maîtrise de problèmes difficiles dans un domaine précis. Le pari porte sur la résolution de ces problèmes, pas seulement sur le fait d'en savoir plus que l'IA.
       - id: artisan
         nom: L'artisan
-        nuance: Mise sur la fiabilité, la sécurité et la maintenabilité des livrables, qu'il s'agisse de code, de pipelines, de données ou de modèles. Sa différence doit se traduire en incidents évités ou en coûts et risques réduits, quel que soit son outillage.
+        nuance: Mise sur la qualité et la fiabilité vérifiables de ses réalisations, qu'il s'agisse de visuels, de textes, de code ou de données. Sa différence se constate dans les travaux livrés, quel que soit son outillage.
 
   - id: deplacer_sa_contribution
     nom: Déplacer sa contribution
-    pari: Ma valeur se situe davantage dans le choix des problèmes, la coordination ou la transmission que dans la seule réalisation technique directe.
+    pari: La valeur se situe davantage dans le choix des problèmes, la coordination ou la transmission que dans la réalisation directe des travaux.
     actions: Développer une légitimité auprès des utilisateurs et des équipes, puis exercer une responsabilité réelle sur les décisions, l'organisation ou la montée en compétence.
     conditions_reussite:
       - Les organisations accordent une place et des moyens à ces responsabilités.
-      - La personne acquiert des compétences métier, relationnelles ou pédagogiques qui ne découlent pas automatiquement de son parcours technique.
+      - La personne acquiert des compétences métier, relationnelles ou pédagogiques qui ne découlent pas automatiquement de sa pratique actuelle.
     avantages:
       - Rapproche du contexte d'usage, des arbitrages et des décisions à fort impact.
       - Peut démultiplier la contribution d'autres personnes plutôt que la seule production individuelle.
     limites:
       - Certaines tâches de coordination, de formalisation ou de formation peuvent aussi être facilitées par l'IA.
-      - Quitter la pratique directe peut affaiblir la crédibilité si le lien avec le terrain disparaît.
+      - S'éloigner de la pratique directe peut affaiblir la crédibilité si le lien avec le terrain disparaît.
     signaux_revision:
       - Le rôle se réduit à transmettre des demandes sans pouvoir réel sur les décisions.
       - L'organisation n'accorde pas de valeur durable à la responsabilité exercée.
     portraits:
       - id: fonctionnel
         nom: Le fonctionnel
-        nuance: Cherche à comprendre les besoins, choisir quoi construire et arbitrer pourquoi. La connaissance métier et l'accès aux utilisateurs comptent davantage que la seule créativité.
+        nuance: Cherche à comprendre les besoins, choisir quel travail réaliser et arbitrer pourquoi. La connaissance métier et l'accès aux utilisateurs comptent davantage que la seule créativité.
       - id: manager
         nom: Le manager
         nuance: Coordonne des personnes, prend des décisions et assume leurs conséquences. Piloter des agents ne remplace pas automatiquement cette responsabilité humaine.
@@ -101,16 +101,16 @@ strategies:
 
   - id: changer_de_marche
     nom: Changer de marché professionnel
-    pari: Un autre métier ou secteur pourrait mieux correspondre à ma situation, à mes compétences transférables et à mes aspirations.
-    actions: Explorer des débouchés concrets, tester un nouveau travail à petite échelle et préparer le financement de la transition.
+    pari: Un autre métier ou secteur pourrait mieux correspondre à la situation, aux compétences transférables et aux aspirations de la personne.
+    actions: Explorer des débouchés concrets, tester une activité dans l'autre métier ou secteur et préparer le financement de la transition.
     conditions_reussite:
-      - Une demande existe pour le nouveau métier aux conditions de travail et de revenu recherchées.
+      - Une demande existe dans le métier ou secteur visé aux conditions de travail et de revenu recherchées.
       - Le temps, les ressources et les compétences transférables permettent d'effectuer la transition.
     avantages:
       - Permet d'explorer une nouvelle trajectoire selon ses priorités professionnelles.
       - Peut réemployer une partie des compétences acquises dans un autre contexte.
     limites:
-      - Apprendre un autre métier a un coût et ne garantit pas un meilleur marché.
+      - Apprendre un autre métier ou s'adapter à un nouveau secteur a un coût et ne garantit pas un meilleur marché.
       - Une transition peut nécessiter des ressources financières ou un revenu intermédiaire.
     signaux_revision:
       - Les débouchés constatés ne correspondent pas aux attentes initiales.
@@ -118,7 +118,7 @@ strategies:
     portraits:
       - id: reconverti
         nom: Le reconverti
-        nuance: Quitte volontairement les métiers techniques du logiciel ou de la donnée pour réinvestir ailleurs. Vivre d'une rente relève d'un choix patrimonial différent, pas de cette stratégie professionnelle.
+        nuance: Quitte son métier d'origine pour en exercer un autre, ou change de secteur pour trouver de nouveaux débouchés. Un simple changement de poste dans le même métier et le même secteur ne relève pas de cette stratégie. Vivre d'une rente relève d'un choix patrimonial différent.
 
   - id: agir_collectivement
     nom: Agir collectivement
@@ -145,7 +145,7 @@ logiques_transversales:
   - id: monetiser_une_fenetre
     nom: Monétiser une fenêtre d'opportunité
     pari: Accepter temporairement une intensité plus forte pour capter une rémunération exceptionnelle ou construire une marge de manœuvre future.
-    applicable_a: Peut accompagner plusieurs stratégies, notamment la production augmentée ou la différenciation technique.
+    applicable_a: Peut accompagner plusieurs stratégies, notamment l'augmentation de capacité ou la différenciation par les réalisations.
     conditions_reussite:
       - Le gain financier est réel et revient à la personne qui fournit l'effort.
       - La durée, le bénéfice recherché et les critères de sortie sont définis à l'avance.

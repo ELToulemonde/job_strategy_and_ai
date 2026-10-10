@@ -115,10 +115,10 @@ function renderResult() {
   const winners = leaders(results);
   if (results.some((r) => r.score === null)) {
     summary.append(node("h2", "Certaines orientations restent à préciser"));
-    summary.append(node("p", "Vous avez choisi « Je ne sais pas encore » pour certaines questions. Les axes concernés restent sans score ; les autres sont visibles ci-dessous."));
+    summary.append(node("p", "Vous avez choisi « Je ne sais pas encore » pour certaines questions. Les axes concernés restent incomplets ; les autres sont affichés ci-dessous."));
   } else if (!winners.length) {
     summary.append(node("h2", "Aucune orientation ne se détache"));
-    summary.append(node("p", "Vos réponses ne privilégient pas l'une des six stratégies proposées. Ce résultat peut aussi nourrir votre réflexion."));
+    summary.append(node("p", "Vos réponses ne privilégient pas l'une des six stratégies proposées. Ce résultat peut aussi servir de point de départ."));
   } else if (winners.length > 1) {
     summary.append(node("h2", "Plusieurs orientations ressortent à égalité"));
     summary.append(node("p", winners.map((r) => names[r.id]).join(" · ")));

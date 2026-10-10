@@ -120,15 +120,11 @@ footer { color: #718799; font-size: 13px; }
 .card-details-body ul { padding-left: 19px; margin: 5px 0 16px; }
 .card-details-body li { margin: 0 0 7px; }
 .card-details-body .portrait { margin: 8px 0; }
-.strategy-aside { background: #f0f6fa; border-radius: 16px; padding: 28px 35px; margin: 34px 0 70px; }
-.strategy-aside .aside-kicker { color: #326d96; font-weight: 750; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
-.strategy-aside h2 { margin: 6px 0 10px; }
-.strategy-aside p { margin: 7px 0; }
 .strategy-cta { display: flex; gap: 22px; align-items: center; justify-content: space-between; background: #eaf2f9; border-radius: 16px; padding: clamp(25px, 4vw, 45px); margin: 58px 0 28px; }
 .strategy-cta h2 { margin: 0; }
 .strategy-cta .eyebrow { margin-bottom: 10px; }
 .strategy-cta p:last-child { margin: 8px 0 0; color: #526b7e; }
 .cta-link { display: inline-block; white-space: nowrap; text-decoration: none; }
 .cta-link:hover { color: white; }
-@media (max-width: 700px) { .shell { padding: 0 14px 30px; } .masthead { min-height: 68px; font-size: 15px; flex-wrap: wrap; padding: 10px 0; } .nav-link { font-size: 12px; } .panel { padding: 27px 19px; } .intro { padding: 60px 23px; } .intro::after { right: -170px; top: -40px; } .visuals { display: block; } .radar-label { font-size: 14px; } .quiz-actions { gap: 10px; } .scale .option { min-height: 70px; } .strategy-hero { padding: 48px 25px; } .strategy-hero::after { bottom: -55px; right: -70px; } .strategy-grid { grid-template-columns: 1fr; } .card-pari { min-height: 0; } .strategy-section-head { margin-top: 50px; } .strategy-aside { margin-bottom: 38px; padding: 24px; } .strategy-cta { display: block; } .cta-link { margin-top: 20px; white-space: normal; } }
+@media (max-width: 700px) { .shell { padding: 0 14px 30px; } .masthead { min-height: 68px; font-size: 15px; flex-wrap: wrap; padding: 10px 0; } .nav-link { font-size: 12px; } .panel { padding: 27px 19px; } .intro { padding: 60px 23px; } .intro::after { right: -170px; top: -40px; } .visuals { display: block; } .radar-label { font-size: 14px; } .quiz-actions { gap: 10px; } .scale .option { min-height: 70px; } .strategy-hero { padding: 48px 25px; } .strategy-hero::after { bottom: -55px; right: -70px; } .strategy-grid { grid-template-columns: 1fr; } .card-pari { min-height: 0; } .strategy-section-head { margin-top: 50px; } .strategy-cta { display: block; } .cta-link { margin-top: 20px; white-space: normal; } }
 @media (prefers-reduced-motion: reduce) { #progress-fill, .option { transition: none; } }

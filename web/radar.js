@@ -2,7 +2,7 @@ const NS = "http://www.w3.org/2000/svg";
 const SHORT_NAMES = {
   maintenir_le_cap: ["Maintenir", "le cap"],
   accroitre_sa_capacite: ["Augmenter sa", "capacité de", "production"],
-  se_differencier_techniquement: ["Se différencier", "techniquement"],
+  se_differencier_techniquement: ["Se différencier", "par ses", "réalisations"],
   deplacer_sa_contribution: ["Déplacer sa", "contribution"],
   changer_de_marche: ["Changer de", "marché"],
   agir_collectivement: ["Agir", "collectivement"],

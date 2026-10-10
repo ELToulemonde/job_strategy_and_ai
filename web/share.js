@@ -17,7 +17,7 @@ export function shareText(results, names, url) {
     : winners.length === 1
       ? `${names[winners[0].id]} : ${winners[0].score.toFixed(1)} / 100`
       : `À égalité : ${winners.map((result) => names[result.id]).join(" · ")}`;
-  return `Mes orientations professionnelles à l'ère de l'IA : ${headline}. Un questionnaire pour réfléchir à mes choix, pas une prédiction. ${url}`;
+  return `Mes orientations professionnelles dans un contexte d'IA : ${headline}. Un questionnaire pour réfléchir à mes choix, pas une prédiction. ${url}`;
 }
 
 function drawPolygon(ctx, values, centerX, centerY, radius, fill, stroke) {
